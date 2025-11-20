@@ -9,7 +9,7 @@ uv init
 ```
 or if you want to select a specific python version:
 ```
-uv venv --python 3.12
+uv venv --python 3.13
 uv init
 ```
 Then, install dependencies and run marimo:
@@ -17,7 +17,7 @@ Then, install dependencies and run marimo:
 uv add marimo openai
 uv run marimo edit
 ```
-### Install and run with pip
+### Or install and run with pip
 ```
 python -m venv .venv
 source .venv/bin/activate
@@ -60,21 +60,23 @@ https://docs.docker.com/ai/model-runner/api-reference/#available-openai-endpoint
 
 ## Setup marimo AI assistant
 * Open marimo settings
-* Go to `AI Providers`
+* Go to `AI Providers` tab
     * expand Ollama and paste:  
     http://localhost:12434/engines/llama.cpp/v1/
-* Go to `AI Models`
+* Go to `AI Models` tab
     * Click `Add Model`
     * For `Provider` select from the dropdown menu: `Ollama`
     * For the Model paste: ai/qwen2.5
     * Click `Add`
     * Enable the Model from Ollama
-* In the AI Features, select the model: `Ollama -> ai/qwen2.5`
+* Go to `AI Features` tab
+    * select the model: `Ollama` -> `ai/qwen2.5`
 
-ollama/ai/qwen2.
+Setup video here:  
+https://www.youtube.com/watch?v=fexJ4ghJaKo
 
-
-
+How to use the AI assistant in marimo:
+https://www.youtube.com/watch?v=gEbruDWcSsM
 
 ## Run LLM model locally with ollama
 If you run your model locally with Ollama, check the documentation here:  
@@ -82,6 +84,3 @@ https://docs.ollama.com/api/introduction
 
 The model is running in `:11434`  
 http://localhost:11434/api
-
-
-'https://raw.githubusercontent.com/pycaret/pycaret/master/datasets/diamond.csv'
