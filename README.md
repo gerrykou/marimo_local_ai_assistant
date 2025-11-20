@@ -62,7 +62,7 @@ https://docs.docker.com/ai/model-runner/api-reference/#available-openai-endpoint
 * Open marimo settings
 * Go to `AI Providers` tab
     * expand Ollama and paste:  
-    http://localhost:12434/engines/llama.cpp/v1/
+    http://localhost:12434/engines/llama.cpp/v1/models
 * Go to `AI Models` tab
     * Click `Add Model`
     * For `Provider` select from the dropdown menu: `Ollama`
