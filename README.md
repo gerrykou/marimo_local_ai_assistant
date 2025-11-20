@@ -75,7 +75,7 @@ https://docs.docker.com/ai/model-runner/api-reference/#available-openai-endpoint
 Setup video here:  
 https://www.youtube.com/watch?v=fexJ4ghJaKo
 
-How to use the AI assistant in marimo:
+How to use the AI assistant in marimo:  
 https://www.youtube.com/watch?v=gEbruDWcSsM
 
 ## Run LLM model locally with ollama
